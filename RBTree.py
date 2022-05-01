@@ -197,8 +197,9 @@ def loadFile(tree:RBTree):
         lines = f.readlines()
         for line in lines:
             if tree.insert(line) != -1:
-                tree.printTreeHeight()
-                tree.printTreeSize()
+                pass
+                # tree.printTreeHeight()
+                # tree.printTreeSize()
 
 
 tree = RBTree()
