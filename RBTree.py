@@ -204,11 +204,14 @@ def loadFile(tree:RBTree):
 
 tree = RBTree()
 
-loadFile(tree)
+# loadFile(tree)
+vals = [99, 80, 70, 60, 35, 20, 19, 16, 14, 13, 11, 10, 7, 6, 5, 4, 3, 2, 1]
+for val in vals:
+    tree.insert(val)
 
 # printTree(tree.head)
 
-# tree.head.display()
+tree.head.display()
 
 tree.printTreeHeight()
 
